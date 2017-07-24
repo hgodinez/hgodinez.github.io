@@ -16,7 +16,7 @@
   data = [
     "Hola!",
     "Hello!",
-    "Hallo", 
+    "Hallo!", 
     "I'm Humberto Godinez",
     "I'm an Actuary",
     "I'm a Mathematician",
