@@ -1,0 +1,76 @@
+---
+layout: base
+favicon: favicon-pencil.ico
+---
+<header>
+  <div class="container post-container">
+    {% include navigation.html %}
+    <div class="inner-container">
+      <h1>{{ page.title }}</h1>
+      <ul class="meta">
+        <li>
+          <span>
+             <span class="fa fa-calendar"></span>
+          </span>
+          <span>
+            {{ page.date | date: "%B %Y" }}
+          </span>
+        </li>
+        <li>
+          <span>
+            <span class="fa fa-folder-open-o"></span>
+          </span>
+          <span>
+            {{ page.categories }}
+          </span>
+        </li>
+        <li>
+          <span>
+            <span class="fa fa-comments"></span>
+          </span>
+          <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}" id="ncomments"></span>
+        </li>
+      </ul>      
+    </div>
+    <ul class="pagination">
+      {% if page.previous.url %}
+      <li class="previous">
+        <a href="{{ baseurl }}{{ page.previous.url }}" class="internallink">
+          <span class="horizontal">
+            <span class="fa fa-angle-double-left"></span>
+            previous
+          </span> 
+        </a>
+      </li>
+      {% endif %}
+      {% if page.next.url %}
+      <li class="next">
+        <a href="{{ baseurl }}{{ page.next.url }}" class="internallink">
+          <span class="horizontal">
+            next
+            <span class="fa fa-angle-double-right"></span>
+          </span> 
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</header>
+<article>
+  <div class="container wrapper post">
+    {{ content }}
+    {% include disqus.html %}
+    <div class="push"></div>
+  </div>
+  <!--
+  <script src="https://rawgit.com/nomensa/jquery.hide-show/master/jquery.hideShow.min.js"></script>
+  <script>
+    $(".highlight").hideShow({
+      hideText: "Hide <i class=\"fa fa-code\"></i>",
+      showText: "Show <i class=\"fa fa-code\"></i>",
+      state: "hidden"
+    });
+  </script>
+  -->
+  {% include footer.html %}
+</article>
