@@ -25,7 +25,7 @@
     "I'm an Avid Researcher",
     "I'm always learning",
     "I <3 my family",
-    "Be Curious"
+    "Be Curious",
     "Think Great",
     ""
     ];
