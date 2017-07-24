@@ -14,18 +14,19 @@
   }
   
   data = [
+    "Hola!",
     "Hello!",
-    "I'm Joshua Kunst",
-    "I'm a #bug #coder",
-    "I'm a data lover",
-    "I'm a data wrangler",
-    "I'm a data explorer",
-    "I'm a data asdf... :B",
-    "I <3 my familiy",
-    "I <3 code",
-    "I <3 visualizations",
-    "I <3 R",
-    "Thanks for your visit ;)!",
+    "Hallo", 
+    "I'm Humberto Godinez",
+    "I'm an Actuary",
+    "I'm a Mathematician",
+    "I'm a Financial Data Scientist",
+    "I'm a Teaching Enthusiast",
+    "I'm an Avid Researcher",
+    "I'm always learning",
+    "I <3 my family",
+    "Be Curious"
+    "Think Great",
     ""
     ];
   
