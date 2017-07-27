@@ -25,6 +25,12 @@
     "I'm an Avid Researcher",
     "I'm always learning",
     "I <3 my family",
+    "I'm intereseted in Risk Management",
+    "I'm intereseted in Time Series",
+    "I'm intereseted in Financial Modelling",
+    "I'm intereseted in Pension Systems",
+    "I'm intereseted in CryptoFinance",
+    "I'm intereseted in Big Data & Machine Learning",
     "Be Curious",
     "Think Great",
     ""

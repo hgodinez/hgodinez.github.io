@@ -7,14 +7,9 @@
   function change_color(){
 
     colors = [ //900
-      "#B71C1C",  // red
-      "#4A148C",  // purlple
-      "#1A237E",  // indigo
-      "#0D47A1",  // blue
       "#004D40",  // teal
       "#212121",  // gray
-      "#1FA67A"   // FontAwesome color
-      ];
+       ];
       
     var rand = Math.floor(Math.random() * colors.length);
     var col900 = colors[rand];

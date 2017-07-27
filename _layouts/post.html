@@ -1,6 +1,5 @@
 ---
 layout: base
-favicon: favicon-pencil.ico
 ---
 <header>
   <div class="container post-container">
@@ -51,5 +50,9 @@ favicon: favicon-pencil.ico
   </div>
 </header>
 <article>
+  <div class="container wrapper post">
+    {{ content }}
+    <div class="push"></div>
+  </div>
    {% include footer.html %}
 </article>

@@ -8,7 +8,7 @@
 {% for page in site.pages %}{% if page.title %}
       <li>
         <a href="{{ page.url | prepend: site.baseurl }}" class="internallink">
-          <span class="thunder">Humberto Godinez</span>
+          <span class="thunder">{{ page.title }}</span>
         </a>
       </li>
 {% endif %}{% endfor %}
