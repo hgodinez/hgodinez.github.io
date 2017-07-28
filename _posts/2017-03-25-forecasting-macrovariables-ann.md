@@ -41,9 +41,14 @@ Here I'm using an **Artificial Neural Network** approach to forecast two macroec
 
 The average annual log return, correlations and business cycles suggest there is no single model to forecast the Inflation. 
 
-<iframe src="/htmlwidgets/post_ann/hc_1_corr.html"></iframe> <a href="/htmlwidgets/post_ann/hc_1_corr.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+<div class="videoWrapper">
+<iframe src="/htmlwidgets/post_ann/hc_1_corr.html" ></iframe> <a href="/htmlwidgets/post_ann/hc_1_corr.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+</div>
 
-<iframe src="/htmlwidgets/post_ann/hc_1_corr.html"></iframe> <a href="/htmlwidgets/post_ann/hc_1_corr.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+<div class="videoWrapper">
+<iframe src="/htmlwidgets/post_ann/hc_1_corr.html" ></iframe > <a href="/htmlwidgets/post_ann/hc_1_corr.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+</div>
+
 
 Given that there is no clear way to forecast the Inflation, **Neural Nets** can find hidden relations between several economic indicators and economies.
 
@@ -72,8 +77,9 @@ For this project I'm using a Neural Net with the following characteristics:
 * 7 Neurons
 
 * 1 Output
-
-<iframe src="/htmlwidgets/post_ann/hc_ann.html"></iframe> <a href="/htmlwidgets/post_ann/hc_ann.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+<div class="videoWrapper">
+<iframe src="/htmlwidgets/post_ann/hc_ann.html" ></iframe> <a href="/htmlwidgets/post_ann/hc_ann.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
+</div>
 
 The  results are promising, the Neural Network shows interdependencies and patterns that other methods of technical analysis are unable to discover. It is by  far, better forecast than traditional time series models.
  
