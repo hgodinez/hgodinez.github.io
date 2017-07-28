@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Humberto Godinez
-tagline: Risk, Finance and Data Sciences
+tagline: Risk, Finance, Pensions and Data Sciences
 
 author:
   name: Humberto Godinez
@@ -27,7 +27,7 @@ include: ['_pages']
 layout: post
 permalink: /:categories/:title/
 
-url: https://hgodinez.github.io/
+url: http://www.humbertogodinez.com
 
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
