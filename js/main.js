@@ -7,7 +7,7 @@
   function change_color(){
 
     colors = [ //900
-      "#004D40",  // teal
+      "#367588",  // teal
       "#212121",  // gray
        ];
       
