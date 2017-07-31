@@ -81,7 +81,7 @@ For this project I'm using a Neural Net with the following characteristics:
 <iframe src="/htmlwidgets/post_ann/hc_ann.html" ></iframe> <a href="/htmlwidgets/post_ann/hc_ann.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
 </div>
 
-The  results are promising, the Neural Network shows interdependencies and patterns that other methods of technical analysis are unable to discover. It is by  far, better forecast than traditional time series models.
+The results are promising, the Neural Network shows interdependencies and patterns that other methods of technical analysis are unable to discover. It shows a better forecast than traditional time series models.
  
 
 
