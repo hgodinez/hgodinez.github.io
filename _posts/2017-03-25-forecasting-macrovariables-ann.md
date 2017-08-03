@@ -77,6 +77,7 @@ For this project I'm using a Neural Net with the following characteristics:
 * 7 Neurons
 
 * 1 Output
+
 <div class="videoWrapper">
 <iframe src="/htmlwidgets/post_ann/hc_ann.html" ></iframe> <a href="/htmlwidgets/post_ann/hc_ann.html" target="_blank">open</a> <small>Note: You can select the series by clicking over the name.</small>
 </div>
