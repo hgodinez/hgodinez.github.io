@@ -1,15 +1,22 @@
-
-    <ul class="navigation">
-      <li>
-        <a href="{{ site.baseurl }}/" class="internallink">
-          <span class="thunder">home</span>
-        </a>
-      </li>
-{% for page in site.pages %}{% if page.title %}
-      <li>
-        <a href="{{ page.url | prepend: site.baseurl }}" class="internallink">
-          <span class="thunder">{{ page.title }}</span>
-        </a>
-      </li>
-{% endif %}{% endfor %}
+<nav class="site-nav" aria-label="Primary">
+  <div class="container nav-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">HG</span>
+      <span class="brand-name">Humberto Godinez</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/experience/">Experience</a></li>
+      <li><a href="/education/">Education</a></li>
+      <li><a href="/research/">Research</a></li>
+      <li><a href="/teaching/">Teaching</a></li>
+      <li><a href="/conferences/">Conferences</a></li>
+      <li><a href="/awards/">Awards</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/" class="nav-cta">Contact</a></li>
     </ul>
+  </div>
+</nav>

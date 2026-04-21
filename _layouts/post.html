@@ -1,58 +1,33 @@
 ---
 layout: base
 ---
-<header>
-  <div class="container post-container">
-    {% include navigation.html %}
-    <div class="inner-container">
+<main class="page post">
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">
+        <span><i class="fa-regular fa-calendar"></i> {{ page.date | date: "%B %Y" }}</span>
+        {% if page.categories %}<span><i class="fa-regular fa-folder-open"></i> {{ page.categories | join: ", " }}</span>{% endif %}
+      </p>
       <h1>{{ page.title }}</h1>
-      <ul class="meta">
-        <li>
-          <span>
-             <span class="fa fa-calendar"></span>
-          </span>
-          <span>
-            {{ page.date | date: "%B %Y" }}
-          </span>
-        </li>
-        <li>
-          <span>
-            <span class="fa fa-folder-open-o"></span>
-          </span>
-          <span>
-            {{ page.categories }}
-          </span>
-        </li>
-      </ul>      
     </div>
-    <ul class="pagination">
-      {% if page.previous.url %}
-      <li class="previous">
-        <a href="{{ baseurl }}{{ page.previous.url }}" class="internallink">
-          <span class="horizontal">
-            <span class="fa fa-angle-double-left"></span>
-            previous
-          </span> 
+  </header>
+  <article class="page-body post-body">
+    <div class="container narrow">
+      {{ content }}
+      <nav class="post-nav">
+        {% if page.previous.url %}
+        <a class="post-nav-link prev" href="{{ page.previous.url }}">
+          <span class="post-nav-direction"><i class="fa-solid fa-arrow-left"></i> Previous</span>
+          <span class="post-nav-title">{{ page.previous.title }}</span>
         </a>
-      </li>
-      {% endif %}
-      {% if page.next.url %}
-      <li class="next">
-        <a href="{{ baseurl }}{{ page.next.url }}" class="internallink">
-          <span class="horizontal">
-            next
-            <span class="fa fa-angle-double-right"></span>
-          </span> 
+        {% else %}<span></span>{% endif %}
+        {% if page.next.url %}
+        <a class="post-nav-link next" href="{{ page.next.url }}">
+          <span class="post-nav-direction">Next <i class="fa-solid fa-arrow-right"></i></span>
+          <span class="post-nav-title">{{ page.next.title }}</span>
         </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
-</header>
-<article>
-  <div class="container wrapper post">
-    {{ content }}
-    <div class="push"></div>
-  </div>
-   {% include footer.html %}
-</article>
+        {% endif %}
+      </nav>
+    </div>
+  </article>
+</main>

@@ -2,121 +2,155 @@
 layout: base
 favicon: favicon-hgo.ico
 ---
-<header>
-  <div class="container post-container">
-    {% include navigation.html %}
-    <div class="inner-container">
-      <h1>{{ site.title }}</h1>
-      <h1><font size="4">{{ site.tagline }}</font></h1>
-      <div id="console">
-        <span class="cursor" id="typed" style="display: inline;">&nbsp;&gt; </span>
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="hero-role"><span class="dot"></span> Currently at Prudential Financial</span>
+        <h1>Humberto <em>Godinez</em></h1>
+        <p class="hero-tagline">
+          Quant focused on <strong>portfolio analytics</strong> and <strong>emerging markets</strong>.
+          PhD mathematician building quantitative models at the intersection of risk, pensions and data science.
+        </p>
+        <div class="hero-actions">
+          <a href="/experience/" class="button primary">View experience <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="/contact/" class="button ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src="/images/photo_hgo.png" alt="Humberto Godinez">
       </div>
     </div>
-  </div>
-</header>
-<article>
-  <div class="container wrapper">
+  </section>
 
-     <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Industry &amp Background</h2>
-      </div>
-      
-      <div class="col-md-10 col-md-offset-1">
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/education/" class="internallink thunder"><span class="fa fa-3x fa-graduation-cap icon-shadow"></span></a></p>
-            <h3>Education</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/experience/" class="internallink thunder"><span class="fa fa-3x fa-industry icon-shadow"></span></a></p>
-            <h3>Experience</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/personal/" class="internallink thunder"><span class="fa fa-3x fa-user icon-shadow"></span></a></p>
-            <h3>Personal</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/contact/" class="internallink thunder"><span class="fa fa-3x fa-envelope icon-shadow"></span></a></p>
-            <h3>Contact</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>        
-      </div>
-    </div>
-    
-    <br>
-    <hr>
-   
-       <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Academia</h2>
-      </div>
-      
-      <div class="col-md-10 col-md-offset-1">
-      
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/research/" class="internallink thunder"><span class="fa fa-3x fa-university icon-shadow"></span></a></p>
-            <h3>Research</h3>
-          </div>
-          <span class="bar"></span>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/teaching/" class="internallink thunder"><span class="fa fa-3x fa-line-chart icon-shadow"></span></a></p>
-            <h3>Teaching</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/conferences/" class="internallink thunder"><span class="fa fa-3x fa-globe icon-shadow"></span></a></p>
-            <h3>Conferences</h3>
-          </div>
-          <span class="bar"></span>  
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
-          <div class="iconbox">
-            <p><a href="/awards/" class="internallink thunder"><span class="fa fa-3x fa-trophy icon-shadow"></span></a></p>
-            <h3>Awards</h3>
-          </div>
-          <span class="bar"></span>  
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <div class="title-group">
+          <p class="eyebrow">About</p>
+          <h2>Short version</h2>
+          <p>Turning quantitative problems in finance, risk and pensions into decisions teams can act on.</p>
         </div>
       </div>
-    </div>
-    <br>
-    <hr>
 
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>From the blog</h2>
+      <div class="about-grid">
+        <aside class="about-card">
+          <dl>
+            <div><dt>Role</dt><dd>Quant, Portfolio Analytics</dd></div>
+            <div><dt>Company</dt><dd>Prudential Financial</dd></div>
+            <div><dt>Focus</dt><dd>Emerging Markets</dd></div>
+            <div><dt>Education</dt><dd>PhD Mathematics · Liverpool<br>MS Computer Science · Georgia Tech</dd></div>
+            <div><dt>Based in</dt><dd>New Jersey, USA</dd></div>
+          </dl>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/hgodinez/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:humberto.godinez@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=56659422500" target="_blank" rel="noopener" aria-label="Scopus"><i class="fa-solid fa-book-bookmark"></i></a>
+          </div>
+        </aside>
+
+        <div class="about-copy">
+          <p>
+            I'm a quantitative researcher at <strong>Prudential Financial</strong>, working in
+            portfolio analytics across <strong>emerging markets</strong> &mdash; building models
+            that support asset allocation, risk measurement and investment decisions.
+          </p>
+          <p>
+            Before Prudential I led data science delivery at <strong>Arundo Analytics</strong>,
+            worked as a data scientist at <strong>QRI</strong> in oil &amp; gas value creation,
+            and spent a decade at <strong>Pemex</strong> as a quantitative advisor to the CFO
+            &mdash; forecasting prices, tariffs and P&amp;L, and running a procurement optimization desk.
+          </p>
+          <p>
+            I hold a PhD in Mathematics from the <strong>University of Liverpool</strong> (Institute
+            for Financial and Actuarial Mathematics), an MS in Computer Science from
+            <strong>Georgia Tech</strong>, and BS degrees in Actuarial Sciences and Applied
+            Mathematics from <strong>ITAM</strong>. My research focuses on the long-term financial
+            sustainability of pension systems in aging economies.
+          </p>
+        </div>
       </div>
-      {% for post in site.posts limit:3 %}
-      <div class="col-md-10 col-md-offset-1 postlinkcontainer">
-        <a href="{{ post.url }}" class="postlink internallink">
-          <h3>{{ post.title }}<span class="pull-right">{{ post.date | date: "%B %Y" }}</span></h3>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="title-group">
+          <p class="eyebrow">Navigate</p>
+          <h2>Explore</h2>
+          <p>Skim the parts that are relevant to you.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <a class="card" href="/experience/">
+          <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Experience</h3>
+          <p>Quant, data science and advisory roles across financial services and energy.</p>
         </a>
-        <span class="bar"></span>
-      </div>
-      {% endfor %}  
-      <div class="col-md-12 text-right">
-        <p><a href="/blog/" class="internallink thunder">View more <span class="fa fa-angle-double-right"></span></a></p>
+        <a class="card" href="/education/">
+          <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Education</h3>
+          <p>PhD Mathematics, MS Computer Science, BS Actuarial Sciences &amp; Applied Math.</p>
+        </a>
+        <a class="card" href="/research/">
+          <div class="card-icon"><i class="fa-solid fa-flask"></i></div>
+          <h3>Research</h3>
+          <p>Pension sustainability, optimization, machine learning in financial modelling.</p>
+        </a>
+        <a class="card" href="/teaching/">
+          <div class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3>Teaching</h3>
+          <p>Postgraduate and short-course teaching in risk, insurance and actuarial science.</p>
+        </a>
+        <a class="card" href="/conferences/">
+          <div class="card-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+          <h3>Conferences</h3>
+          <p>Invited talks on pensions, longevity and sustainability frameworks.</p>
+        </a>
+        <a class="card" href="/awards/">
+          <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+          <h3>Awards</h3>
+          <p>Honours, grants and fellowships, and features in the press.</p>
+        </a>
+        <a class="card" href="/blog/">
+          <div class="card-icon"><i class="fa-solid fa-pen-to-square"></i></div>
+          <h3>Blog</h3>
+          <p>Notes on pensions, personal finance and quantitative modelling.</p>
+        </a>
+        <a class="card" href="/contact/">
+          <div class="card-icon"><i class="fa-regular fa-envelope"></i></div>
+          <h3>Contact</h3>
+          <p>Drop a line &mdash; email, LinkedIn or the usual suspects.</p>
+        </a>
       </div>
     </div>
-    
-    <div class="push"></div>
-  </div>
-  {% include footer.html %}
-  <script src="/js/typed.custom.js"></script>
-  <script src="/js/index.js"></script>
-</article>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="title-group">
+          <p class="eyebrow">From the blog</p>
+          <h2>Recent writing</h2>
+          <p>Short posts on finance, pensions and modelling &mdash; mostly in Spanish.</p>
+        </div>
+        <a class="section-link" href="/blog/">View all <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="posts-grid">
+        {% for post in site.posts limit:3 %}
+        <a class="post-card" href="{{ post.url }}">
+          {% if post.featured_image %}
+          <div class="post-card-media"><img src="{{ post.featured_image }}" alt="{{ post.title }}"></div>
+          {% endif %}
+          <div class="post-card-body">
+            <p class="post-card-date">{{ post.date | date: "%b %Y" }}</p>
+            <h3>{{ post.title }}</h3>
+            {% if post.categories %}<span class="category">{{ post.categories | join: ", " }}</span>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

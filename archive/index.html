@@ -1,0 +1,122 @@
+---
+layout: base
+favicon: favicon-hgo.ico
+---
+<header>
+  <div class="container post-container">
+    {% include navigation.html %}
+    <div class="inner-container">
+      <h1>{{ site.title }}</h1>
+      <h1><font size="4">{{ site.tagline }}</font></h1>
+      <div id="console">
+        <span class="cursor" id="typed" style="display: inline;">&nbsp;&gt; </span>
+      </div>
+    </div>
+  </div>
+</header>
+<article>
+  <div class="container wrapper">
+
+     <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Industry &amp Background</h2>
+      </div>
+      
+      <div class="col-md-10 col-md-offset-1">
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/education/" class="internallink thunder"><span class="fa fa-3x fa-graduation-cap icon-shadow"></span></a></p>
+            <h3>Education</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/experience/" class="internallink thunder"><span class="fa fa-3x fa-industry icon-shadow"></span></a></p>
+            <h3>Experience</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/personal/" class="internallink thunder"><span class="fa fa-3x fa-user icon-shadow"></span></a></p>
+            <h3>Personal</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/contact/" class="internallink thunder"><span class="fa fa-3x fa-envelope icon-shadow"></span></a></p>
+            <h3>Contact</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>        
+      </div>
+    </div>
+    
+    <br>
+    <hr>
+   
+       <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Academia</h2>
+      </div>
+      
+      <div class="col-md-10 col-md-offset-1">
+      
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/research/" class="internallink thunder"><span class="fa fa-3x fa-university icon-shadow"></span></a></p>
+            <h3>Research</h3>
+          </div>
+          <span class="bar"></span>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/teaching/" class="internallink thunder"><span class="fa fa-3x fa-line-chart icon-shadow"></span></a></p>
+            <h3>Teaching</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/conferences/" class="internallink thunder"><span class="fa fa-3x fa-globe icon-shadow"></span></a></p>
+            <h3>Conferences</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-1 text-center">
+          <div class="iconbox">
+            <p><a href="/awards/" class="internallink thunder"><span class="fa fa-3x fa-trophy icon-shadow"></span></a></p>
+            <h3>Awards</h3>
+          </div>
+          <span class="bar"></span>  
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>From the blog</h2>
+      </div>
+      {% for post in site.posts limit:3 %}
+      <div class="col-md-10 col-md-offset-1 postlinkcontainer">
+        <a href="{{ post.url }}" class="postlink internallink">
+          <h3>{{ post.title }}<span class="pull-right">{{ post.date | date: "%B %Y" }}</span></h3>
+        </a>
+        <span class="bar"></span>
+      </div>
+      {% endfor %}  
+      <div class="col-md-12 text-right">
+        <p><a href="/blog/" class="internallink thunder">View more <span class="fa fa-angle-double-right"></span></a></p>
+      </div>
+    </div>
+    
+    <div class="push"></div>
+  </div>
+  {% include footer.html %}
+  <script src="/js/typed.custom.js"></script>
+  <script src="/js/index.js"></script>
+</article>
