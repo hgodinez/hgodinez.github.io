@@ -30,6 +30,8 @@ url: https://www.humbertogodinez.com
 markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 
+future: true
+
 kramdown:
   auto_ids: true
   input: GFM
